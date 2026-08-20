@@ -33,13 +33,5 @@ class Solution(object):
         if not matrix:
             return result
 
-        self.l1(
-            matrix,
-            0,
-            len(matrix) - 1,
-            len(matrix[0]) - 1,
-            0,
-            result
-        )
-
+        self.l1(matrix,0,len(matrix) - 1,len(matrix[0]) - 1 ,0,result)
         return result
